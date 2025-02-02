@@ -261,7 +261,7 @@ public class WiseApp {
         softAssert.assertEquals(sessionStatus.getText(), "Upcoming", "Session Status mismatch! Actual: " + sessionStatus.getText());
         softAssert.assertEquals(instructorName.getText(), "Wise Tester", "Instructor Name mismatch! Actual: " + instructorName.getText());
 
-// Report all assertion failures
+// /Report all assertion failures
         softAssert.assertAll();
     }
                 }
